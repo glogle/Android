@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="abc">sdfsdfsdfsdfsdsf</string>
+    <string-array name="data">
+        <item>英勇青铜</item>
+        <item>不屈白银</item>
+        <item>荣耀黄金</item>
+        <item>华贵铂金</item>
+        <item>璀璨钻石</item>
+        <item>超凡大师</item>
+        <item>最强王者</item>
+    </string-array>
+    <string name="spin_title">分段选择</string>
+</resources>

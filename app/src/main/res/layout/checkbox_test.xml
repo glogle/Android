@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp">
+
+    <CheckBox
+        android:id="@+id/cb_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="香蕉"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/cb_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:padding="40dp"
+        android:text="西瓜"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/cb_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MyCheckBox"
+        android:text="苹果"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:textSize="30sp" />
+</LinearLayout>

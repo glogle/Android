@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ToggleButton
+        android:id="@+id/tbtn_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textOff="关闭声音"
+        android:textOn="打开声音" />
+
+    <Switch
+        android:id="@+id/swh_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/thumb_selctor"
+        android:track="@drawable/track_selctor" />
+
+</LinearLayout>

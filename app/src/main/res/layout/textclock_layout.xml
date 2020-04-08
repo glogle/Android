@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="MM/dd/yyyy h:mmaa"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="MMM dd, yyyy h:mmaa"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="MMMM dd, yyyy h:mmaa"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="E, MMMM dd, yyyy h:mmaa"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="EEEE, MMMM dd, yyyy h:mmaa"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="Noteworthy day: 'M/d/yy"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <AnalogClock
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+</LinearLayout>

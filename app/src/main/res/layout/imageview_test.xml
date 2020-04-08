@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80FF5722"
+    android:orientation="vertical">
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@mipmap/pen" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:background="@mipmap/pen" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:src="@mipmap/pen" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:src="@mipmap/pen" />-->
+
+    <ImageView
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/shape_bg"
+        android:src="@mipmap/pen" />
+
+</LinearLayout>
